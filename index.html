@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodeCrafters Survey Form</title>
+</head>
+<body bgcolor="#f2f2f2" text="#222" link="#0000cc" vlink="#660099">
+
+    <center>
+        <h1>💻 CodeCrafters Survey Form 💡</h1>
+        <hr width="60%" color="#333">
+        <p><b>We’d love to hear from you!</b> Please fill out this short form and help us improve your coding experience.</p>
+        <hr width="60%" color="#333">
+    </center>
+
+    <form id="form">
+        <table align="center" border="0" cellpadding="8" cellspacing="5" bgcolor="#ffffff" width="60%">
+            <tr>
+                <td colspan="2" align="center"><h2>👤 Personal Details</h2></td>
+            </tr>
+
+            <tr>
+                <td><b>Name:</b></td>
+                <td><input type="text" id="name" placeholder="Enter your full name" size="40"></td>
+            </tr>
+            <tr>
+                <td><b>Email:</b></td>
+                <td><input type="email" id="email" placeholder="Enter your email address" size="40"></td>
+            </tr>
+            <tr>
+                <td><b>Age:</b></td>
+                <td><input type="number" id="age" placeholder="Enter your age"></td>
+            </tr>
+            <tr>
+                <td><b>Role:</b></td>
+                <td>
+                    <select name="role" id="role">
+                        <option value="">-- Select your current role --</option>
+                        <option value="student">Student</option>
+                        <option value="intern">Intern</option>
+                        <option value="professional">Professional</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center"><h2>⭐ Preferences</h2></td>
+            </tr>
+
+            <tr>
+                <td><b>Would you recommend CodeCrafters?</b></td>
+                <td>
+                    <label><input type="radio" name="recommend"> Yes 😊</label><br>
+                    <label><input type="radio" name="recommend"> No 😐</label><br>
+                    <label><input type="radio" name="recommend"> Maybe 🤔</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>Languages / Frameworks Known:</b><br><small>(Check all that apply)</small></td>
+                <td>
+                    <table border="0" cellpadding="3">
+                        <tr>
+                            <td><input type="checkbox" name="lang"> C</td>
+                            <td><input type="checkbox" name="lang"> C++</td>
+                            <td><input type="checkbox" name="lang"> Java</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="lang"> Python</td>
+                            <td><input type="checkbox" name="lang"> JavaScript</td>
+                            <td><input type="checkbox" name="lang"> C#</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="lang"> React</td>
+                            <td><input type="checkbox" name="lang"> Angular</td>
+                            <td><input type="checkbox" name="lang"> Django</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" name="lang"> Spring</td>
+                            <td><input type="checkbox" name="lang"> Flask</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>Date of Submission:</b></td>
+                <td><input type="date" id="date"></td>
+            </tr>
+
+            <tr>
+                <td><b>Comments / Suggestions:</b></td>
+                <td><textarea id="comment" rows="4" cols="40" placeholder="Write your comments here..."></textarea></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <hr width="40%">
+                    <input type="submit" value="🚀 Submit Form">
+                    <input type="reset" value="❌ Reset">
+                    <hr width="40%">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <center>
+        <p><i>Thank you for your valuable time 💖</i></p>
+        <p>© 2025 CodeCrafters Survey | Built with ❤️ using HTML</p>
+    </center>
+
+</body>
+</html>
